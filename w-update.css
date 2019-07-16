@@ -630,6 +630,16 @@ border-spacing: 0;
                 letter-spacing: .5px;
                 }
 
+                .maintext3 {
+                font-family: orpheuspro, serif;
+                width: 35%;
+                margin-top: -17%;
+                margin-left: 53%;
+                line-height: 25px;
+                font-size: 18px;
+                letter-spacing: .5px;
+                }
+
                 .text1 {
                 font-family: 'Noto',sans-serif;
                 width: 26%;
@@ -889,7 +899,23 @@ border-spacing: 0;
     z-index: -999;
 }
 
+.image9a {
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 7%;
+}
 
+.image9{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.image9b {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: -7%;
+}
 
             .work2b {
                 width: 90%;
