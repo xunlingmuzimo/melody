@@ -1,0 +1,142 @@
+
+
+            body {
+             background: #fcfcfc;
+            }
+            
+            header ul {
+                position: fixed;
+                list-style:none;
+                font-size: 17px;
+                color: black;
+            }          
+
+
+            header ul a li {
+            line-height: 26px;
+            }
+        
+            .home {
+            font-weight: 600px;
+            letter-spacing: px;
+            font-family: 'noto sans';
+            text-underline-position: below;
+            border-bottom: 2px solid lightsalmon;
+            color: 
+            }
+
+
+            .logo {
+                position: fixed;
+                width: 65px;
+                padding-top: 4px;
+                padding-right: 20px;
+                right: 10px;
+                float: right;
+            }
+
+
+            h1 {
+                padding: 30px;
+                position:fixed; 
+                font-family:'Fjalla One','Open Sans', sans-serif;
+                font-size: 30px;
+                margin: -20px;
+                margin-left: 15px;
+                letter-spacing: 50px;
+                line-height: 50px;
+                text-transform: uppercase;
+                color: #fcfcfc;
+            }
+            
+            a.hh {
+                color: black}
+            
+            
+            a {
+                text-decoration: none;
+                font-family: 'Roboto',sans-serif;
+                color: black;
+            }
+
+            a:hover {
+                color: thistle;
+                transition: all .5s ease;
+            }
+            
+            a:visited {
+                color:;
+            }
+            
+            a:active {
+                font-kerning: 2px;
+                display:inline;
+            }
+            
+            footer {
+               position:fixed;
+               left: 30px;
+               bottom: 5px;
+               margin-top: ;
+                /*等于footer的高度*/ 
+               clear:both;
+               text-align: left;
+               font-size: 12px;
+               color:gray;
+               padding-bottom: 20px;
+               font-family: 'noto', sans-serif;
+            }
+            
+
+
+            .intro {
+            padding-top: 100px;
+            padding-left: 40px;
+            padding-right: 580px;
+            position: fixed;
+            
+            }
+
+
+            
+            .contactme {
+            margin-top: 100px;
+            position:;
+            }
+      
+            h3 {
+            font-family: orpheuspro, serif;
+            font-style: normal;
+            font-weight: 400;
+            color: orangered;
+            font-size: 13px;
+                }
+            
+            .personalstatement {
+                font-family: 'Noto',sans-serif;
+                font-weight: 100px;
+            }
+
+
+            .ins {
+                width: 28px;
+                padding-top: 9px;
+}
+            .touxiang {
+                width: 100%;
+                z-index: -99;
+                position: relative;
+                float: left;
+                padding-bottom: 30px;
+            }
+
+            section p {
+             font-family: 'Roboto',sans-serif;
+            width: 50%;
+            }      
+            
+
+
+
+
+

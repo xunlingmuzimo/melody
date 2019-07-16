@@ -1,0 +1,529 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+/*------------------------------------------
+                    layout 
+-------------------------------------------*/
+
+
+            body {
+             background: #fcfcfc;
+
+            }
+            
+            header ul {
+                position: fixed;
+                list-style:none;
+                font-size: 16px;
+                margin-top: 240px;
+                padding:px;
+                left: 10px;
+                color: black;
+                z-index: 99;
+               transform: rotate(-90deg);
+	           transform-origin: left top 0; 
+                
+            }          
+
+
+            header ul a li {
+            line-height: 26px;
+            font-family: 'Raleway';
+            letter-spacing: 2px;
+            
+            }
+        
+            .home {
+            font-weight: 600px;
+            letter-spacing: px;
+            font-family: 'Raleway';
+            text-underline-position: below;
+            padding-bottom: 4px;
+            border-bottom: 3px solid thistle;
+            cursor: url('img/cursor.png'), auto;
+            }
+
+
+            .logo {
+                position: fixed;
+                width: 85px;
+                padding-top: 4px;
+                padding-right: 20px;
+                right: 10px;
+                float: right;
+                z-index: 1;
+            }
+
+
+            h1 {
+                padding: 30px;
+                position:fixed; 
+                font-family:'Fjalla One','Open Sans', sans-serif;
+                font-size: 30px;
+                margin: -20px;
+                margin-left: 15px;
+                letter-spacing: 50px;
+                line-height: 50px;
+                text-transform: uppercase;
+                color: #fcfcfc;
+            }
+            
+            a.hh {
+                color: black}
+            
+
+            h2 {
+                font-family: 'lato', sans-serif;
+                font-weight:600;
+                font-size: 20px;
+            }
+
+            section h2 {
+                width: 30%;
+                float: left;
+                margin-top: 10px;
+                line-height: 25px;
+            }
+
+            #construction {
+            position: absolute;
+            margin-top: 2%;
+            margin-left: 25%;
+            font-size: 25px;
+            font-family: 'Raleway';
+            letter-spacing: 2px;
+            color: deepskyblue;
+            background: yellow;
+            }
+
+            #hi {
+            margin-top: 50px;
+            display:inline-flex;
+            }
+            
+            h5 {
+            margin-left: 15%;
+            width: 70%;
+            font-family: orpheuspro, serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 35px;
+            }
+
+            #hi2 {
+            font-size: 180px;
+            font-family: orpheuspro, serif;
+            font-weight: 400;
+            color: #72f5d0;
+            line-height: 200px;
+            outline-color: aqua;
+            }
+            
+            #hi3 {
+            font-size: 180px;
+            font-family: orpheuspro, serif;
+            font-weight: 400;
+            color: #72f5d0;
+            line-height: 180px;
+            }
+
+            #mo {
+            margin-left: 90%;
+            font-family: orpheuspro, serif;
+            font-weight: 400;
+            font-size: 25px;
+            }
+
+            #branding {
+            margin-left: 20%;
+            font-size: 30px;
+            margin-top: -50px;
+            font-family: 'lato', sans-serif;
+            font-weight: 400;
+            border-bottom: 20px;
+            }
+
+            .works {
+            display: flex;
+            width: 88%;
+            margin-left: 6%;
+            }
+            
+            #projecttitle{
+            font-family: 'Raleway';
+            margin-top: 10px;
+            margin-bottom: 30px;
+            font-size: 18px;
+            }
+
+            .column1 {
+                margin-top: 0px;   
+                width: 30%;
+                padding: 0px;
+                margin-left: 30px; 
+                padding-bottom: 25px;
+                margin-bottom: 30px;
+            }
+
+
+            .work {
+                width: 100%;
+                z-index: ;
+                float: left;
+            }
+.divider {
+    margin-bottom: 20px;
+}
+            
+            span {
+                font-weight: 100;
+                font-size: 12px; 
+                font-family:'Merriweather',serif;
+                line-height: 10px;
+            }
+            
+            a {
+                text-decoration: none;
+                font-family: 'Roboto',sans-serif;
+                color: black;
+            }
+
+            a:hover {
+                color: thistle;
+                transition: all .5s ease;
+            }
+            
+            a:visited {
+                color:;
+            }
+            
+            a:active {
+                font-kerning: 2px;
+                display:inline;
+            }
+            
+            footer {
+               position:relative;
+               left: 30px;
+               margin-top: ;
+                /*等于footer的高度*/ 
+               height: 30px;
+               clear:both;
+               text-align: left;
+               font-size: 12px;
+               color:gray;
+               padding: 10px;
+               font-family: 'noto', sans-serif;
+}
+                .footer1 {
+               position:relative;
+               left: 30px;
+               margin-top: -80px;
+                /*等于footer的高度*/ 
+               height: 30px;
+               clear:both;
+               text-align: left;
+               font-size: 11px;
+               color:gray;
+               padding: 20px;
+               padding-left: 20px;
+               font-family: 'noto', sans-serif;
+                font-weight: 100;
+                top: 0px;
+             }
+                .footer2 {
+               position:relative;
+               left: 30px;
+                /*等于footer的高度*/ 
+               height: 30px;
+               clear:both;
+               text-align: left;
+               font-size: 11px;
+               color:lightgray;
+               font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                padding-left: 6%;
+             }
+
+               .footer3 {
+               position:relative;
+               left: 30px;
+                /*等于footer的高度*/ 
+               height: 30px;
+               clear:both;
+               text-align: left;
+               font-size: 11px;
+               color:lightgray;
+               font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                margin-top: 20%;
+                padding-left: 6%;
+             }
+            
+               .footer4 {
+               position:relative;
+               left: 30px;
+                /*等于footer的高度*/ 
+               height: 30px;
+               clear:both;
+               text-align: left;
+               font-size: 11px;
+               color:lightgray;
+               font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                margin-top: 40%;
+                padding-left: 6%;
+             }
+
+
+/*鼠标悬浮图片放大*/
+            * {  
+                margin: 0;  
+                padding: 0; 
+                
+            }  
+
+            .avatar {  
+                display:table-cell;  
+                width: 680px; 
+                height: -80px;
+                margin: auto;  
+                overflow:hidden;  
+            }  
+              
+            .avatar img {  
+                display: block;  
+                border: 0;    
+                transform: scale(1);  
+                transition: all 1s ease 0s;  
+                -webkit-transform: scale(1);  
+                -webkit-transform: all 1s ease 0s;  
+                overflow:hidden;
+            }  
+              
+            .avatar:hover img {  
+                transform: scale(1.1);  
+                transition: all 0.8s ease 0s;  
+                -webkit-transform: scale(1.05);  overflow:hidden;
+            }
+             
+/* ABOUT*/
+                
+                h3 {
+                font-family: orpheuspro, serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 70px;
+                font-weight: 100;
+                padding-top: 130px;
+                padding-left: 15%;
+                }
+                
+                 h4 {
+                font-family: orpheuspro, serif;
+                font-weight: 100;
+                color: thistle;
+                font-size: 22px;
+                padding-left: 15%;
+                padding-top: 10px;
+                line-height: 20px;
+                 }
+                 
+                .resume {
+                font-family: orpheuspro, serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                }
+                
+                .personalstatement {
+                font-family: 'Ralewa',sans-serif;
+                font-weight: 100;
+                padding-left: 20%;
+                margin-top: 80px;
+                width: 40%;
+                line-height: 22px;
+                font-size: 16px;
+                }
+
+                #profile {
+                width: 25%;
+                position: absolute;
+                left: 65%;
+                top: 15%;
+}
+                .ins2 {
+                width: 20px;
+                padding-top: 0px;
+                }
+
+                .ins {
+                width: 22px;
+                padding-top: 9px;
+                }
+
+                .contactme {
+                padding-left: 20%;
+                margin-top: 80px;
+                padding-bottom: 180px;
+                }
+
+/* Branding */
+.works2{
+display: flex;
+margin-left: 50px;
+}
+.works1 {
+    padding-top: 30px;
+    padding-left: 30px;
+}   
+
+.work3 {
+    width: 100%;
+}   
+
+.supplement {
+    margin-bottom: 390px;
+}
+
+.supplement2 {
+    margin-bottom: 140px;
+}
+
+
+.category {
+    padding-top: 80px;
+    font-size: 13px;
+    padding-left: 80px;
+}
+
+#cateline {
+    border-bottom: 1px solid thistle;
+    margin-top: 7%;
+    width: 84%;
+    margin-left: 8%;
+}
+.category1 {
+    margin-top: ;
+    margin-bottom: 80px;
+    font-size: 20px;
+    padding-left: 0%;
+    padding-top: 12px;
+    line-height: 30px;
+}
+
+.category1 li {
+    font-family: orpheuspro, serif;
+    font-style: italic;
+    font-weight: ;
+    padding-left: 11%;
+    font-weight: 400;
+    letter-spacing:;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+
+            .selectedcategory {
+            font-weight: 600px;
+            letter-spacing: px;
+            font-family: 'noto sans';
+            text-underline-position: below;
+            padding-bottom: 3px;
+            border-bottom: 2px solid lightsalmon;
+            color: 
+            }
+
+
+/*c-caterory*/
+#cateline-c {
+    border-bottom: 1px solid thistle;
+    margin-top: 0%;
+    width: 84%;
+    margin-left: 8%;
+}
+
+#cata-c-hilight {
+    color: thistle;
+}
+
+
+/*鼠标悬浮图片放大*/
+            * {  
+                margin: 0;  
+                padding: 0;  
+            }  
+
+            .avatar1 {  
+                display:block;  
+                width: 300px;
+                height: -100px;
+                margin: auto;  
+                overflow: hidden;  
+            }  
+              
+            .avatar1 img {  
+                display: block;  
+                border: 0;    
+                transform: scale(1);  
+                transition: all 1s ease 0s;  
+                -webkit-transform: scale(1);  
+                -webkit-transform: all 1s ease 0s;  
+            }  
+              
+            .avatar1:hover img {  
+                transform: scale(1.1);  
+                transition: all 0.8s ease 0s;  
+                -webkit-transform: scale(1.05);  
+            }
+
+

@@ -1,0 +1,407 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+/*------------------------------------------
+                    layout 
+-------------------------------------------*/
+
+
+            body {
+             background: #fcfcfc;
+            }
+            
+            header ul {
+                position: fixed;
+                list-style:none;
+                font-size: 16px;
+                padding: 20px;
+                left: 30px;
+                color: black;
+                z-index: 99;
+                
+            }          
+
+
+            header ul a li {
+            line-height: 26px;
+            font-family: 'Raleway';
+            letter-spacing: .5px;
+            }
+        
+            .home {
+            font-weight: 600px;
+            letter-spacing: px;
+            font-family: 'Raleway';
+            text-underline-position: below;
+            padding-bottom: 4px;
+            border-bottom: 1px solid lightsalmon;
+            color: 
+            }
+
+
+
+            .logo {
+                position: fixed;
+                width: 75px;
+                padding-top: 4px;
+                padding-right: 20px;
+                right: 10px;
+                float: right;
+                z-index: 1;
+            }
+
+
+            h1 {
+                padding: 30px;
+                position:fixed; 
+                font-family:'Fjalla One','Open Sans', sans-serif;
+                font-size: 30px;
+                margin: -20px;
+                margin-left: 15px;
+                letter-spacing: 50px;
+                line-height: 50px;
+                text-transform: uppercase;
+                color: #fcfcfc;
+            }
+            
+            a.hh {
+                color: black}
+            
+
+            h2 {
+                font-family: 'lato', sans-serif;
+                font-weight:600;
+                font-size: 20px;
+            }
+
+            section h2 {
+                width: 30%;
+                float: left;
+                margin-top: 10px;
+                line-height: 25px;
+            }
+
+            .works {
+            display: flex;
+            width: 99%;
+                
+            }
+            
+
+            .column1 {
+                margin-top: 70px;   
+                width: 90%;
+                padding: 0px;
+                margin-left: 30px; 
+                padding-bottom: 25px;
+                margin-bottom: 30px;
+            }
+
+            .column2 {
+                margin-top: 70px;   
+                width: 90%;
+                padding: 0px;
+                margin-left: 0px; 
+                padding-bottom: 25px;
+                margin-bottom: 30px;
+            }
+
+            .work {
+                width: 100%;
+                z-index: ;
+                float: left;
+            }
+.divider {
+    margin-bottom: 20px;
+}
+            
+            span {
+                font-weight: 100;
+                font-size: 12px; 
+                font-family:'Merriweather',serif;
+                line-height: 10px;
+            }
+            
+            a {
+                text-decoration: none;
+                font-family: 'Roboto',sans-serif;
+                color: black;
+            }
+
+            a:hover {
+                color: thistle;
+                transition: all .5s ease;
+            }
+            
+            a:visited {
+                color:;
+            }
+            
+            a:active {
+                font-kerning: 2px;
+                display:inline;
+            }
+            
+            footer {
+               position:relative;
+               left: 30px;
+               margin-top: ;
+                /*等于footer的高度*/ 
+               height: 30px;
+               clear:both;
+               text-align: left;
+               font-size: 12px;
+               color:gray;
+               padding: 10px;
+               font-family: 'noto', sans-serif;
+}
+                .footer1 {
+               position:relative;
+               left: 30px;
+               margin-top: ;
+                /*等于footer的高度*/ 
+               height: 30px;
+               clear:both;
+               text-align: left;
+               font-size: 11px;
+               color:gray;
+               padding: 20px;
+               padding-left: 20px;
+               font-family: 'noto', sans-serif;
+                font-weight: 100;
+                top: 0px;
+             }
+                .footer2 {
+               position:relative;
+               left: 30px;
+                /*等于footer的高度*/ 
+               height: 30px;
+               clear:both;
+               text-align: left;
+               font-size: 11px;
+               color:gray;
+               font-family: 'noto', sans-serif;
+                font-weight: 100;
+                padding-left: 20px;
+             }
+
+
+            
+            
+/*鼠标悬浮图片放大*/
+            * {  
+                margin: 0;  
+                padding: 0;  
+            }  
+
+            .avatar {  
+                display:block;  
+                width: 650px; 
+                height: -100px;
+                margin: auto;  
+                overflow: hidden;  
+            }  
+              
+            .avatar img {  
+                display: block;  
+                border: 0;    
+                transform: scale(1);  
+                transition: all 1s ease 0s;  
+                -webkit-transform: scale(1);  
+                -webkit-transform: all 1s ease 0s;  
+            }  
+              
+            .avatar:hover img {  
+                transform: scale(1.1);  
+                transition: all 0.8s ease 0s;  
+                -webkit-transform: scale(1.05);  
+            }
+             
+/* ABOUT*/
+                
+                h3 {
+                font-family: 'noto',sans-serif;
+                font-size: 28px;
+                font-weight: 100;
+                padding-top: 200px;
+                padding-left: 50px;
+                }
+                
+                 h4 {
+                font-family: 'noto',sans-serif;
+                font-weight: 100;
+                color: thistle;
+                font-size: 13px;
+                padding-left: 50px;
+                padding-top: 10px;
+                 }
+                 
+                .resume {
+                font-family: 'noto',sans-serif;
+                font-weight: 200;
+                color: ;
+                font-size: 14px;
+                padding-top: 10px;
+                }
+                
+                .personalstatement {
+                font-family: 'Noto',sans-serif;
+                font-weight: 100;
+                padding-left: 60px;
+                padding-top: 30px;
+                width: 320px;;
+                padding-right: 200px;
+                line-height: 18px;
+                font-size: 14px;
+                }
+
+                .ins2 {
+                width: 20px;
+                padding-top: 0px;
+                }
+
+                .ins {
+                width: 22px;
+                padding-top: 9px;
+                }
+
+                .contactme {
+                padding-left: 60px;
+                padding-top: 000px;
+                padding-bottom: 180px;
+                }
+
+/* Branding */
+.works2{
+display: flex;
+    margin-left: 50px;
+}
+.works1 {
+    padding-top: 30px;
+    padding-left: 30px;
+}   
+
+.work3 {
+    width: 100%;
+}   
+
+.supplement {
+    margin-bottom: 390px;
+}
+
+.supplement2 {
+    margin-bottom: 140px;
+}
+
+
+.category {
+    padding-top: 80px;
+    font-size: 13px;
+    padding-left: 80px;
+}
+
+.category1 {
+    margin-top: -60px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    padding-left: 290px;
+    padding-top: 50px;
+}
+
+.category1 li {
+    padding-left: -200px;
+    font-weight: 100;
+    font-family: 'Raleway';
+    letter-spacing: .5px;
+    color:gray;
+    font-size: 12px;
+}
+
+
+            .selectedcategory {
+            font-weight: 600px;
+            letter-spacing: px;
+            font-family: 'noto sans';
+            text-underline-position: below;
+            padding-bottom: 3px;
+            border-bottom: 2px solid lightsalmon;
+            color: 
+            }
+
+
+/*鼠标悬浮图片放大*/
+            * {  
+                margin: 0;  
+                padding: 0;  
+            }  
+
+            .avatar1 {  
+                display:block;  
+                width: 300px;
+                height: -100px;
+                margin: auto;  
+                overflow: hidden;  
+            }  
+              
+            .avatar1 img {  
+                display: block;  
+                border: 0;    
+                transform: scale(1);  
+                transition: all 1s ease 0s;  
+                -webkit-transform: scale(1);  
+                -webkit-transform: all 1s ease 0s;  
+            }  
+              
+            .avatar1:hover img {  
+                transform: scale(1.1);  
+                transition: all 0.8s ease 0s;  
+                -webkit-transform: scale(1.05);  
+            }
