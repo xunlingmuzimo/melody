@@ -87,7 +87,7 @@ border-spacing: 0;
             font-family: 'Raleway';
             text-underline-position: below;
             padding-bottom: 4px;
-            border-bottom: 3px solid thistle;
+            border-bottom: 3px solid  #72f5d0;
             cursor: url('img/cursor.png'), auto;
             }
 
@@ -177,7 +177,7 @@ border-spacing: 0;
             }
 
             #mo {
-            margin-left: 90%;
+            margin-left: 80%;
             font-family: orpheuspro, serif;
             font-weight: 400;
             font-size: 25px;
@@ -238,7 +238,7 @@ border-spacing: 0;
             }
 
             a:hover {
-                color: thistle;
+                color:  #72f5d0;
                 transition: all .5s ease;
             }
             
@@ -371,7 +371,7 @@ border-spacing: 0;
                  h4 {
                 font-family: orpheuspro, serif;
                 font-weight: 100;
-                color: thistle;
+                color:  #72f5d0;
                 font-size: 22px;
                 padding-left: 15%;
                 padding-top: 10px;
